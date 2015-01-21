@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+  <title>Your page title here</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+</head>
+
+<main>
+  <h1>First week in Github</h1>
+  <h2>It's an amazingly powerful technology</h2>
+  <h4>January 20th, 2015</h4>
+
+  <section>
+    <p>
+      Yesterday, I had my first group pairing session on GitHub. My partner was Kenny from Edison, New Jersey and our guide was Caroline from Chicago.
+    </p>
+    <p>
+        The first exercise was fairly easy and consisted of making a new repo in GitHub, intializing it with a Readme and adding the MIT license. Next, I was to add my pair as a collaborator on this project so that they could push to the repo.
+
+        Initially, I cloned the new repo to my computer and added a new file typing some text into the file. Finally, I added, committed, and pushed the file to the master repo. At that point, Kenny was able to clone the repo as well; in order to do so, I had to send him the GitHub link so that he could find the project.
+    </p>
+    <p>
+        The second step was to make a branch for a new feature called add-command-log. The way you do this is to type $git checkout -b add-command-log
+        Once you've created a new branch parallel to master, you will have that same file awesome_page.md in your add-command-log branch. To check what branch you are on at the command line, type 'git branch'. Next, if you wish to switch branches, type 'git checkout branchname'. In this case, we went into our new branch and editted the README.md file to log new terminal commands. To make the edit, we typed 'cat > README.md' and entered text righ there. To EXIT, we typed Cntrl + D
+    </p>
+    <p>
+        We wrote a command to show our command history in the terminal and then piped it into a file. 'history 20 >> README.md' Then type q to quit. 
+    </p>  
+    <p>
+        What a pull request means is when a developer makes changes on his side and you say, hey collaborator, I want to take your new stuff onto my computer.
+
+        When you push a new branch up, you probably want to submit a new pull request in GitHub; click the green button to initiate the process. As you create a new pull request, you can create a comment for your collaborator and you can also tag other users using an @ character. Go to the Assignee (sun or cog) icon and select a person so that they get an e-mail. In your description, you can also insert emojis with the :word: notation. You can also browse the 'diff' by clicking the **files changed** button. Also, the **commit button** allows you to browse different code states by commit. Look at the files changed tab, leave line comments on the code by hovering over the code and clicking + tha appears near the line numbers. 
+    </p>  
+    <p>
+        After you create a pull request, the collaborator does a 'git fetch -a gitbranchname' to pull down copies of what other people have one, 'git branch' to list local branches, and a 'git checkout add-command-log' (when you checkout, git copies the branch into the available branch that you can then edit). Afterwards, it is always good to perform a 'git pull origin master', then do a 'git pull origin master', now you can merge in our add-command-log using 'git merge add-command-log'. If we develop and make changes to a file then, we finally go back and do a git push origin master.
+    </p>
+    <p>
+        The syntax is as follows. git fetch \<remote\>\<branch\> and git merge \<remote\>\<branch\>
+
+        Best practice is to stay in a branch, keep things clean, don't merge to the master. work-in-a-branch > push > pull request > Developer A (me) work-in-a-branch > push > pull request > Developer B (you) Nobody is ever pushing to the master branch until it is official.
+    </p> 
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
