@@ -1,0 +1,36 @@
+body {
+font-family: verdana, Verdana, Geneva, sans-serif;
+background-color: beige; 
+margin: 0px;
+padding: 0;
+}
+
+div {
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+#page {
+position: absolute;
+font-size:28px;
+padding-left: 235px;
+top: -10px;
+}
+
+a:link {
+font-size:18px;
+color:#666;
+}
+
+a:hover {
+color: yellow;
+}
+
+a:active {
+color: orange;
+}
+
+#nav a {
+padding-right: 40px;
+}

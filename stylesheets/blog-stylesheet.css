@@ -1,0 +1,150 @@
+#wrapper {
+width: 1280px;
+min-height: 768px;
+height: 100%;
+}
+
+#header {
+position: relative;
+display: inline-block;
+width: 1280px;
+height: 85px;
+}
+
+  #nav {
+  padding: 4px 0 0 253px;
+  width: 1280px;
+  height: 26px; /* 36px total including padding-top */
+  }
+  
+  #titlebar {
+  position:relative;
+  width: 1280px;
+  height: 55px;
+  border: 0px dashed blue;
+  background-color: yellow;
+  }
+
+#main {
+position: relative;
+width: 1280px;
+min-height: 683px; /* 768 minimum height - 85 for header */
+height: 100%;
+display: inline;
+}
+
+  #leftcolumn {
+  width: 235px;
+  min-height: 683px;
+  height: 100%;
+  background-color:#CCC;
+  float: left;
+  }
+  
+  #intro {
+  width: 235px;
+  height: 184px;
+  border: 0px dashed red;
+  background-color:#666;
+  color: white;
+  }
+  
+  #content {
+  width: 770px;
+  min-height: 665px; /* 683 - 18 for padding*/
+  height: 100%;
+  border: 0px dashed black;
+  margin-top: 18px;
+  margin-left: 18px;
+  background-color: white;
+  float: left;
+  }
+  
+  #rightcolumn {
+  border: 0px dashed black;
+  width: 100%;
+  max-width: 257px;
+  min-width: 0;
+  height: 100%;
+  min-height: 665px; /* 683 - 18 for padding*/
+  background-color: #CCC;
+  margin-top: 18px;  
+  float: left;
+  }
+
+#footer {
+width: 1280px;
+height: 30px;
+background-color: yellow;
+color: white;	
+}
+
+span.subhead {
+	display:inline;
+	padding-left: 22px;
+}
+.entrytitle {
+font-size: 24px;
+text-transform: uppercase;
+text-indent: 20px;
+color: #CCC;
+margin: 25px 0 0 0;
+padding:0;
+}
+.entrysubtitle {
+font-size: 18px;
+font-weight: 5500;
+font-variant:small-caps;
+margin-top: 2px;
+color:#333;
+display:inline;
+color:#666;
+font-style:italic;
+letter-spacing:.05em;
+}
+h4.entrydate {
+font-size: 14px;
+margin-top: 2px;
+font-weight:lighter;
+font-style: italic;
+color:#F63;
+display:inline;
+padding-left: 80px;
+}
+
+.blogtxt {
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+padding: 0 135px 0 60px;
+text-align: left;
+font-size:16px;
+color:#333;
+line-height: 1.4em;
+}
+
+img.blogpic {
+position:relative;
+border: 1px outset #CCCCCC;
+padding: 8px;
+/*margin: 25px 0 0px 30px;*/
+margin-top: 18px;
+margin-bottom: 0px;
+left: calc(7%);
+}
+.caption {
+margin: 0;
+padding: 0 0 0 470px;
+position: relative;
+top: -9px;
+font-style:italic;
+font-family:"Courier New", Courier, monospace;
+font-size: 9px;
+color: #999;
+}
+
+.menuitem {
+font-size: 1.6em;
+}
+
+.clear {
+clear: both;
+}
